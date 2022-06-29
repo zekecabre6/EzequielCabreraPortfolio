@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    div> h3{
+        font-size: 13px;
+    }
+    
+
+    .me {
+        grid-gap: 2rem 0;
+        padding: 10px
+    }
+
+    .me {
+        grid-gap: 2rem 0
+    }
+
+    .me>* {
+        grid-column-end: span 12
+    }
+
+    .me {
+        grid-gap: 2rem 0
+    }
+    .vamos{
+        top: 50% !important;
+        left: 50%
+    }
+    .proff{
+        top: 0;
+    }
+}
