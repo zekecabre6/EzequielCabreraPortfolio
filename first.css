@@ -1,7 +1,62 @@
 html {
   overflow: hidden;
 }
+.all {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000
+}
 
+.titlef {
+  color: #fff;
+  font-size: 3.5em;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 20%;
+  top: 43%;
+
+}
+
+.proff {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  position: absolute;
+  left: 25%;
+  top: 51%;
+}
+
+
+.vamos {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #FFF;
+}
+
+#canvas-wrap {
+  position: relative;
+  background: #222;
+  height: 100vh;
+  width: 100vw;
+}
+
+#canvas {
+  opacity: 0.8;
+  height: 100vh;
+  width: 100vw;
+}
 #canvas {
   height: 100vh;
 }
