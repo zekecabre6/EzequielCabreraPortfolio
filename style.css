@@ -12,7 +12,8 @@ html {
   box-sizing: border-box
 }
 .cert{
-  max-width: 300px
+  max-width: 300px;
+  max-height: auto;
 }
 .front {
   font-family: 'Press Start 2P', cursive;
