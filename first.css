@@ -1,6 +1,27 @@
-html{
+html {
   overflow: hidden;
 }
-#canvas{
+
+#canvas {
   height: 100vh;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  padding: 23px;
+  text-shadow: 3px 0px 0px rgba(30, 30, 30, 1);
+  -webkit-border-radius: 10.54054054054054px;
+  -moz-border-radius: 10.54054054054054px;
+  border-radius: 10.54054054054054px;
+  background: rgb(210, 20, 20);
+  background: -moz-linear-gradient(118deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
+  background: -webkit-linear-gradient(118deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
+  background: -o-linear-gradient(118deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
+  background: -ms-linear-gradient(118deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
+  background: linear-gradient(28deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
+  -webkit-box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
+  -moz-box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
+  box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
+
 }

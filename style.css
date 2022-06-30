@@ -1,6 +1,6 @@
 html {
-  background-color:#222;
-  scroll-behavior: smooth;
+  background-color: #222;
+  scroll-behavior: smooth
 }
 
 * {
@@ -9,12 +9,14 @@ html {
   list-style: none;
   text-decoration: none;
   border: none;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
-
+.cert{
+  max-width: 300px
+}
 .front {
-  font-family: 'Press Start 2P';
-  font-size: 13px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px
 }
 
 li a {
@@ -22,47 +24,47 @@ li a {
   text-align: center;
   margin: 5px auto;
   padding: 2px;
-  color: #fff;
+  color: #fff
 }
 
 .black {
-  background-color: #000;
+  background-color: #000
 }
 
 div h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 32px
 }
 
 div h3 {
-  float: right;
+  float: right
 }
 
 .image {
-  text-align: center;
+  text-align: center
 }
 
 .image img {
   max-width: 100px;
-  margin: auto;
+  margin: auto
 }
 
 .worksImg {
-  max-height: 200px;
+  max-height: 200px
 }
 
 .works {
-  box-shadow: 5px 5px 10px #8A1906;
+  box-shadow: 5px 5px 10px #8a1906
 }
 
-.works:hover,
-.hover:hover {
+.hover:hover,
+.works:hover {
   box-shadow: 10px 10px 20px #661204;
-  transition: 0.3s;
+  transition: .3s
 }
 
 .p1 {
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.521);
+  text-shadow: 1px 1px rgba(255, 255, 255, .521)
 }
 
 .header {
@@ -72,7 +74,7 @@ div h3 {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 .me {
@@ -80,173 +82,104 @@ div h3 {
   grid-template-columns: 33% 33% 33%;
   justify-items: center;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 .title {
   text-align: center;
-  font-size: 30px;
+  font-size: 30px
 }
 
-.title2
-.border {
-  border: 1px solid #fff;
+.title2 .border {
+  border: 1px solid #fff
 }
 
-.cont > ul > li {
+.cont>ul>li {
   display: inline;
-  margin: 25px;
+  margin: 25px
 }
 
 .cont {
   text-align: center;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 25px
 }
 
 .red {
-  max-width: 70px;
+  max-width: 70px
 }
 
 .max300 {
-  max-height: 300px;
+  max-height: 300px
 }
 
 .pad {
-  padding: 20px;
+  padding: 20px
 }
 
 .hob {
   position: relative;
   align-items: center;
   text-align: center;
-  top: 50px;
-}
-
-.ski {
-  position: relative;
-  align-items: center;
-  text-align: center;
+  top: 50px
 }
 
 .hobbies {
   border: 1px solid;
   padding: 10px;
   background-color: #661204;
-  color: #fff;
-}
-
-.back {
-  font-size: 34px;
+  color: #fff
 }
 
 .footer-second {
   border-top: 1px solid;
   margin: 0;
-  background-color: #a5a5a5;
+  background-color: #a5a5a5
 }
 
-.footer-second p, .footer-second a {
+.footer-second a,
+.footer-second p {
   color: #fff;
   font-size: 100%;
-  line-height: 155%;
+  line-height: 155%
 }
 
 #logo_b {
   text-align: center;
-  font-size: 25px;
+  font-size: 25px
 }
 
 .header {
-  background: #000;
+  background: #000
 }
 
 body {
-  background: #fff;
+  background: #fff
 }
 
 .zk {
-  color: #fff;
+  color: #fff
 }
 
-@media screen and (max-width: 768px) {
-  div > h3 {
-    font-size: 13px;
+@media screen and (max-width:768px) {
+  div>h3 {
+    font-size: 13px
   }
+
   .me {
     grid-gap: 2rem 0;
-    padding: 10px;
+    padding: 10px
   }
+
   .me {
-    grid-gap: 2rem 0;
+    grid-gap: 2rem 0
   }
-  .me > * {
-    grid-column-end: span 12;
+
+  .me>* {
+    grid-column-end: span 12
   }
+
   .me {
-    grid-gap: 2rem 0;
+    grid-gap: 2rem 0
   }
-  .vamos {
-    top: 50% !important;
-    left: 50%;
-  }
-  .proff {
-    top: 0;
-  }
-}
-
-.all {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-}
-
-.titlef {
-  color: #fff;
-  font-size: 3.5em;
-  font-family: 'Roboto', sans-serif;
-  position: absolute;
-  left: 20%;
-  top: 43%;
-}
-
-.proff {
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
-  position: absolute;
-  left: 25%;
-  top: 51%;
-}
-
-.vamos {
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 3px;
-  color: #000;
-  font-family: 'Roboto', sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 60%;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: #FFF;
-}
-
-#canvas-wrap {
-  position: relative;
-  background: #222;
-  height: 100%;
-  width: 100vw;
-}
-
-#canvas {
-  opacity: 0.8;
-  height: 100%;
-  width: 100vw;
 }
