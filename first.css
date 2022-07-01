@@ -12,8 +12,8 @@ html {
   font-size: 3.5em;
   font-family: 'Roboto', sans-serif;
   position: absolute;
-  left: 20%;
-  top: 43%;
+  left: 20vw;
+  top: 43vh;
 
 }
 
@@ -22,8 +22,8 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 2em;
   position: absolute;
-  left: 25%;
-  top: 51%;
+  left: 25vw;
+  top: 51vh;
 }
 
 
@@ -34,7 +34,7 @@ html {
   color: #000;
   font-family: 'Roboto', sans-serif;
   position: absolute;
-  top: 50%;
+  top: 43%;
   left: 60%;
 }
 
@@ -79,4 +79,23 @@ html {
   -moz-box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
   box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
 
+}
+@media (max-width: 768px){
+  .titlef {
+    font-size: 15vw !important;
+    left:20vw !important;
+    top: 40vw !important;
+  
+  }
+  
+  .proff {
+    font-size: 6vw !important;
+    left:27vw !important;
+    top: 33vh !important;
+  }
+  .vamos{
+    left: 30vw !important;
+    font-size: 10vw!important;
+    top: 60vh !important;
+  }
 }
