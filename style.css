@@ -1,6 +1,9 @@
+
+
 html {
   background-color: #222;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -25,11 +28,15 @@ li a {
   text-align: center;
   margin: 5px auto;
   padding: 2px;
-  color: #fff
+  color: #fff;
+  font-family: roboto ;
 }
 
 .black {
-  background-color: rgb(94, 94, 94)
+  margin: 2px;
+  padding: 5px ;
+  border-radius: 10px;
+  background-color: #95d0b8
 }
 
 div h2 {
@@ -55,23 +62,23 @@ div h3 {
 }
 
 .works {
-  box-shadow: 5px 5px 10px #8a1906
+  box-shadow: 5px 5px 10px #f1db42
 }
 
 .hover:hover,
 .works:hover {
-  box-shadow: 10px 10px 20px #661204;
+  box-shadow: 10px 10px 20px #f04158;
   transition: .3s
 }
 
 .p1 {
-  text-shadow: 1px 1px rgba(255, 255, 255, .521)
+  text-shadow: 1px 1px rgba(255, 255, 255, .521);
+  font-weight: bold;
 }
 
 .header {
   width: 100%;
   height: auto;
-  background-color: #a74444;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   justify-content: center;
@@ -88,7 +95,8 @@ div h3 {
 
 .title {
   text-align: center;
-  font-size: 30px
+  font-size: 30px;
+  margin: 10px;
 }
 
 .title2 .border {
@@ -117,7 +125,10 @@ div h3 {
 .pad {
   padding: 20px
 }
-
+ 
+.cv{
+  cursor: grab;
+}
 .hob {
   position: relative;
   align-items: center;
@@ -151,11 +162,11 @@ div h3 {
 }
 
 .header {
-  background: #000
+  background: #67be9b
 }
 
 body {
-  background: #fff
+  background: #fcfcd7
 }
 
 .zk {

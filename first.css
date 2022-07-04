@@ -1,4 +1,5 @@
 html {
+  font-family: 'Roboto' ;
   overflow: hidden;
 }
 .all {
@@ -62,6 +63,7 @@ html {
 }
 
 .button {
+  font-family: 'Roboto' ;
   color: rgb(255, 255, 255);
   font-size: 32px;
   padding: 23px;
@@ -75,9 +77,9 @@ html {
   background: -o-linear-gradient(118deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
   background: -ms-linear-gradient(118deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
   background: linear-gradient(28deg, rgb(210, 20, 20) 33%, rgb(165, 20, 20) 45%);
-  -webkit-box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
-  -moz-box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
-  box-shadow: 55px 17px 16px rgba(50, 50, 50, 0.43);
+  -webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.43);
+  -moz-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.43);
+  box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.43);
 
 }
 @media (max-width: 768px){
