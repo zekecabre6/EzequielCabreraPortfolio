@@ -36,7 +36,7 @@ li a {
   margin: 2px;
   padding: 5px ;
   border-radius: 10px;
-  background-color: #95d0b8
+  background-color: #675cb0
 }
 
 div h2 {
@@ -62,12 +62,12 @@ div h3 {
 }
 
 .works {
-  box-shadow: 5px 5px 10px #f1db42
+  box-shadow: 5px 5px 10px #675cb0
 }
 
 .hover:hover,
 .works:hover {
-  box-shadow: 10px 10px 20px #f04158;
+  box-shadow: 10px 10px 20px #9f90ea;
   transition: .3s
 }
 
@@ -79,6 +79,7 @@ div h3 {
 }
 
 .header {
+  background: #171a4a;
   width: 100%;
   height: auto;
   display: grid;
@@ -112,6 +113,10 @@ div h3 {
 .insta:hover{
   
   filter: drop-shadow(0px 0px 10px rgb(109, 48, 189));
+}
+.github:hover{
+  
+  filter: drop-shadow(0px 0px 10px white);
 }
 .youtube:hover{
   
@@ -178,12 +183,10 @@ div h3 {
   font-size: 25px
 }
 
-.header {
-  background: #67be9b
-}
+
 
 body {
-  background: #fcfcd7
+  background: #000020
 }
 
 .zk {
@@ -211,4 +214,8 @@ body {
   .me {
     grid-gap: 2rem 0
   }
+}
+*{font-family: 'Roboto Mono', monospace!important;}
+h3{
+  color: #9f90ea !important;
 }

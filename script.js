@@ -10,7 +10,7 @@ $(window).on('resize', function () {
 
 colors = ['#61E89E', '#FF8A80', '#F9ED86', '#FFB28E', '#95FFEF', '#D75A6C', '#79C4FC', '#DBDAD9', '#FF405F'];
 symbols = [
-  'ZEKE', 'JS', 'HTML', 'SASS', 'CSS', 'BOOTSTRAP', '//', '<>'
+  'ZEKE', 'JS', 'HTML', 'SASS', 'CSS', 'BOOTSTRAP','PYTHON', '//', '<>','ANGULARJS','REACTJS'
   //, '~', '=', '*', '#', '{', '}', '[', ']', '!', '?', '>'
 ]
 
