@@ -72,10 +72,11 @@ div h3 {
 }
 
 .p1 {
-  text-shadow: 1px 1px rgba(255, 255, 255, .521);
+  text-shadow: 1px 1px white;
   font-weight: bold;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color:gray;
 }
 
 .header {
