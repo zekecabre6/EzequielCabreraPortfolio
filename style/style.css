@@ -1,0 +1,351 @@
+html {
+
+  background-color: #222;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+* {
+  font-family: 'Roboto Mono', monospace !important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.worksImg {
+  max-height: 200px
+}
+
+.works {
+  box-shadow: 5px 5px 10px #675cb0
+}
+
+.hover:hover,
+.works:hover {
+  box-shadow: 10px 10px 20px #9f90ea;
+  transition: .3s
+}
+
+/* .p1 {
+  text-shadow: 1px 1px white;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+} */
+
+
+
+.me {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.title2 .border {
+  border: 1px solid #fff
+}
+
+.cont>ul>li {
+  display: inline;
+  margin: 25px;
+}
+
+.insta:hover {
+
+  filter: drop-shadow(0px 0px 10px rgb(109, 48, 189));
+}
+
+.github:hover {
+
+  filter: drop-shadow(0px 0px 10px white);
+}
+
+.youtube:hover {
+
+  filter: drop-shadow(0px 0px 10px red);
+}
+
+.linkedin:hover {
+
+  filter: drop-shadow(0px 0px 10px rgb(13, 43, 212));
+}
+
+.mail:hover {
+
+  filter: drop-shadow(0px 0px 10px rgb(161, 161, 161));
+}
+
+.cont {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px
+}
+
+.cont>ul>li>a>img {
+  max-width: 40px;
+}
+
+
+
+
+
+.footer-second {
+  border-top: 1px solid;
+  margin: 0;
+  background-color: #a5a5a5
+}
+
+.footer-second a,
+.footer-second p {
+  color: #fff;
+  font-size: 100%;
+  line-height: 155%
+}
+
+#logo_b {
+  text-align: center;
+  font-size: 25px
+}
+
+
+
+body {
+  background: #000020
+}
+
+
+
+@media screen and (max-width:768px) {
+  .first-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .art {
+    min-width: 100vw;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0 !important;
+    transform: translate(0, 50%) !important;
+
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  div>h3 {
+    font-size: 13px
+  }
+
+  .me {
+    grid-gap: 2rem 0;
+    padding: 10px
+  }
+
+  .me {
+    grid-gap: 2rem 0
+  }
+
+  .me>* {
+    grid-column-end: span 12
+  }
+
+  .me {
+    grid-gap: 2rem 0
+  }
+}
+
+
+
+h3 {
+  color: #9f90ea !important;
+}
+
+.contact {
+  padding-bottom: 40px;
+}
+
+.first-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: aliceblue;
+}
+
+.about-me {
+  z-index: 10;
+  padding: 35px;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.one {
+  font-size: 25px;
+  flex-shrink: 0;
+}
+
+.three {
+  max-width: 300px;
+
+}
+
+.three>a>p {
+  background-color: #171a4a;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+/* menu */
+nav {
+  z-index: 1000000;
+  min-width: 350px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 90vh;
+  border: #fff 1px solid;
+  border-radius: 40px;
+  background-color: #171a4a;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav>ul>li {
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blink_me {
+  min-width: 70px;
+  max-width: 70px;
+  display: inline-block;
+  vertical-align: bottom;
+  animation: blinker 1s linear infinite;
+  animation-delay: -0.5s;
+}
+
+.blink_me span {
+  float: left;
+  overflow: hidden;
+  animation: hideShow 6s linear infinite;
+}
+
+.blink_me span:nth-child(1) {
+  animation-delay: -0s;
+}
+
+.blink_me span:nth-child(2) {
+  animation-delay: -1s;
+}
+
+.blink_me span:nth-child(3) {
+  animation-delay: -2s;
+}
+
+.blink_me span:nth-child(4) {
+  animation-delay: -3s;
+}
+
+.blink_me span:nth-child(5) {
+  animation-delay: -4s;
+}
+
+.blink_me span:nth-child(6) {
+  animation-delay: -5s;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes hideShow {
+
+  0%,
+  16.6%,
+  33.33%,
+  100% {
+    width: 0;
+  }
+
+  16.66%,
+  33.3% {
+    width: auto;
+  }
+}
+
+.art {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0 !important;
+  transform: translate(55%, 0);
+}
+
+.ace {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.ace>li {
+  padding: 0 1em;
+
+}
+
+.ace>li>img {
+  min-width: 20px;
+}
+
+div,
+h3 {
+  z-index: 1000;
+}
+
+h3 {
+  z-index: 1000;
+}

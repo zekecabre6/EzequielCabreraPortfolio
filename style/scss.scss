@@ -1,0 +1,99 @@
+:root {
+	--background: #cecece !;
+	--scale: 1;
+	--icon-size: 24px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+nav { z-index: 1000000000000;
+	position: fixed;bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 350px;
+	height: 80px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	border-radius: 10px;
+	padding: 0 15px;
+	background: rgb(0, 0, 0);
+	box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.12), 0 22.3px 17.9px rgba(0, 0, 0, 0.08), 0 100px 80px rgba(0, 0, 0, 0.04);
+	overflow: hidden;
+	ul {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		li {
+			list-style: none;
+			width: var(--icon-size);
+			height: var(--icon-size);
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+				cursor: pointer;
+				svg {
+					fill: #fff;
+					width: 100%;
+					height: 100%;
+					opacity: 0.4;
+					transition: opacity 100ms ease;
+					pointer-events: none;
+				}
+				&.active {
+					svg {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+	.tubelight {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		transform: translateX(-50%);
+		width: 45px;
+		height: 5px;
+		border-radius: 5px;
+		background: #ffffff;
+		transition: left 400ms ease;
+		z-index: 10;
+		.light-ray {
+			position: absolute;
+			left: -30%;
+			top: 5px;
+			width: 160%;
+			height: 80px;
+			clip-path: polygon(5% 100%, 25% 0px, 75% 0px, 95% 100%);
+			background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) -50%, rgba(255, 255, 255, 0) 90%);
+			pointer-events: none;
+		}
+	}
+}
+
+
+.support{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	padding: 10px;
+	display: flex;
+	a{
+		margin: 0 10px;
+		color: #222;
+		font-size: 1.8rem;
+		backface-visibility: hidden;
+		transition: all 150ms ease;
+		&:hover{
+			transform: scale(1.1);
+		}
+	}
+
+}

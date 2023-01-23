@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
-}
+} */
 
 .lds-dual-ring {
     display: inline-block;
@@ -49,4 +49,3 @@
 .loader2{
     clip-path: circle(0% at 100% 100%);
 }
-.body

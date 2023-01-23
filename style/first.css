@@ -1,12 +1,13 @@
-
 /*  css de la primer pantalla */
 
 
 html {
-  font-family: 'Roboto' ;
+  font-family: 'Roboto';
   overflow: hidden;
 }
-.all {display: flex;
+
+.all {
+  display: flex;
   justify-content: center;
   width: 100vw;
   height: 100vh;
@@ -33,12 +34,13 @@ html {
   height: 100vh;
   width: 100vw;
 }
+
 #canvas {
   height: 100vh;
 }
 
- .button {
-  font-family: 'Roboto' ;
+.button {
+  font-family: 'Roboto';
   color: rgb(255, 255, 255);
   font-size: 32px;
   padding: 23px;
@@ -54,24 +56,31 @@ html {
   -webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.43);
   -moz-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.43);
   box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.43);
-
+color: aliceblue !important;
 }
- @media (max-width: 768px){
-  .all{
+
+@media (max-width: 768px) {
+  .all {
     flex-direction: column;
   }
-  .titlef {padding: 10px;
+
+  .titlef {
+    padding: 10px;
   }
-  
-  .proff {z-index: 1;padding-bottom: 20px;
-    transform: none !important;
-  }
-  .vamos{
+
+  .proff {
     z-index: 1;
-    font-size: 8vw!important;
+    padding-bottom: 20px;
     transform: none !important;
-    align-self: center !important;}}
- 
+  }
+
+  .vamos {
+    z-index: 1;
+    font-size: 8vw !important;
+    align-self: center !important;
+  }
+}
+
 
 
 .titlef {
@@ -79,7 +88,8 @@ html {
   color: #fff;
   font-size: 3.5em;
   font-family: 'Roboto', sans-serif;
-  align-self: center !important;}
+  align-self: center !important;
+}
 
 .proff {
   color: #fff;
@@ -96,6 +106,5 @@ html {
   color: #000;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  transform: translate(-100%, +80%);
   align-self: center !important;
 }
