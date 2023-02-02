@@ -42,7 +42,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100000;
+    z-index: 100000000000000000000000000000;
     clip-path: circle(141.2% at 100% 0);
     transition: clip-path 0.3s ease-in-out ;
 }

@@ -25,6 +25,7 @@ a {
 }
 
 .works {
+  margin:10px ;
   box-shadow: 5px 5px 10px #675cb0
 }
 
@@ -124,7 +125,9 @@ a {
   font-size: 25px
 }
 
-
+.sepia{
+  filter:sepia(75%);
+}
 
 body {
   background: #000020
@@ -183,7 +186,7 @@ h3 {
 }
 
 .contact {
-  padding-bottom: 40px;
+  padding-bottom:80px;
 }
 
 .first-view {
@@ -218,7 +221,7 @@ h3 {
   border-radius: 4px;
 }
 
-/* menu */
+/* menu *//* 
 nav {
   z-index: 1000000;
   min-width: 350px;
@@ -243,7 +246,7 @@ nav>ul {
 nav>ul>li {
   padding: 5px 10px;
 }
-
+ */
 
 
 
@@ -349,3 +352,14 @@ h3 {
 h3 {
   z-index: 1000;
 }
+.svg{
+  max-width: 16px;
+}
+.extra{
+  height: 100% !important;
+}    
+
+
+
+
+/* nav */

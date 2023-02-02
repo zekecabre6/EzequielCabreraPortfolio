@@ -1,28 +1,26 @@
-/* line 1, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 1, ../../../Documents/GitHub/port2/public/style/scss.scss */
 :root {
-  --background: #cecece !;
-  --scale: 1;
   --icon-size: 24px;
 }
 
-/* line 7, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 7, ../../../Documents/GitHub/port2/public/style/scss.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 14, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 15, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav {
-  z-index: 1000000000000;
+  z-index: 99999999999999999999;
   position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
+  bottom: 3rem;
+  right: 50%;
+  transform: translate(50%);
   width: 350px;
   height: 80px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   border-radius: 10px;
   padding: 0 15px;
   background: black;
@@ -30,7 +28,7 @@ nav {
   overflow: hidden;
 }
 
-/* line 27, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 31, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav ul {
   height: 100%;
   display: flex;
@@ -38,14 +36,14 @@ nav ul {
   align-items: center;
 }
 
-/* line 32, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 37, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav ul li {
   list-style: none;
   width: var(--icon-size);
   height: var(--icon-size);
 }
 
-/* line 36, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 42, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav ul li a {
   display: block;
   width: 100%;
@@ -53,7 +51,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-/* line 41, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 48, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav ul li a svg {
   fill: #fff;
   width: 100%;
@@ -63,12 +61,12 @@ nav ul li a svg {
   pointer-events: none;
 }
 
-/* line 50, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 58, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav ul li a.active svg {
   opacity: 1;
 }
 
-/* line 57, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 66, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav .tubelight {
   position: absolute;
   left: 0px;
@@ -82,9 +80,8 @@ nav .tubelight {
   z-index: 10;
 }
 
-/* line 68, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 78, ../../../Documents/GitHub/port2/public/style/scss.scss */
 nav .tubelight .light-ray {
-  position: absolute;
   left: -30%;
   top: 5px;
   width: 160%;
@@ -94,7 +91,7 @@ nav .tubelight .light-ray {
   pointer-events: none;
 }
 
-/* line 82, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 91, ../../../Documents/GitHub/port2/public/style/scss.scss */
 .support {
   position: fixed;
   right: 10px;
@@ -103,7 +100,7 @@ nav .tubelight .light-ray {
   display: flex;
 }
 
-/* line 88, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 98, ../../../Documents/GitHub/port2/public/style/scss.scss */
 .support a {
   margin: 0 10px;
   color: #222;
@@ -112,7 +109,7 @@ nav .tubelight .light-ray {
   transition: all 150ms ease;
 }
 
-/* line 94, ../../../Documents/GitHub/port2/style/scss.scss */
+/* line 105, ../../../Documents/GitHub/port2/public/style/scss.scss */
 .support a:hover {
   transform: scale(1.1);
 }

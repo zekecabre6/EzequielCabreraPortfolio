@@ -16,11 +16,13 @@
       }
     ],
     "disown-opener": "off",
+    "no-inline-styles": "off",
     "compat-api/css": [
       "default",
       {
         "ignore": [
-          "backface-visibility"
+          "backface-visibility",
+          "scroll-behavior"
         ]
       }
     ]
